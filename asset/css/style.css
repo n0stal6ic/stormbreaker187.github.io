@@ -1,0 +1,91 @@
+@font-face {
+  font-family: "JetBrains Mono";
+  src: url("../font/jetbrains-mono.woff2");
+}
+
+* {
+  font-family: "JetBrains Mono";
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  color: white;
+}
+
+:root {
+  --menu-height: 55px;
+}
+
+body {
+  background-color: #1e1e1e;
+}
+
+#header-wrapper {
+  position: relative;
+  height: var(--menu-height);
+  line-height: var(--menu-height);
+}
+
+header {
+    background-color: #0000ff;
+    padding: 0px 14px;
+    user-select: none;
+    font-size: 0px;
+}
+
+header a {
+  vertical-align: middle;
+  padding: 6px 8px;
+  border-radius: 6px;
+  font-size: 16px;
+  transition: background-color 0.2s;  
+}
+
+#links a {
+  cursor: pointer;
+}
+
+#links a:hover {
+  /* background-color: #363636; */
+  background-color: #ff0000;
+}
+
+header #logo {
+  margin-right: 12px;
+}
+
+header #logo img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+
+#content {
+  background-color: #272727;
+  margin: 18px;
+  padding: 24px;
+  border-radius: 12px;
+  max-height: calc(100vh - var(--menu-height));
+  overflow: auto;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.loader {
+  margin: 20px 0px;
+  width: 36px;
+  height: 36px;
+  border: solid transparent 4px;
+  border-top-color: #0000ff;
+  border-bottom-color: #0000ff;
+  border-radius: 50%;
+  animation: spin 1s infinite;
+  margin-left: calc(50% - 18px);
+}
