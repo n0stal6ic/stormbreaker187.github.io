@@ -14,7 +14,7 @@
 
         prel.appendChild(title_el)
         prel.appendChild(desc_el)
-        prel.href = link
+        prel.onclick = () => window.location = link
 
         el.appendChild(prel)
     });
