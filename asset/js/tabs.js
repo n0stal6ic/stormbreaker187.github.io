@@ -1,7 +1,3 @@
-/*
-TODO: use history api
-*/
-
 async function nav(resource, script_resource, contentElement) {
     contentElement.innerHTML = ''
     let loadingEl = document.createElement('div')
