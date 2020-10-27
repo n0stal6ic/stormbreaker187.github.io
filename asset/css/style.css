@@ -65,7 +65,6 @@ header #logo img {
   margin: 18px;
   padding: 24px;
   border-radius: 12px;
-  max-height: calc(100vh - var(--menu-height));
   overflow: auto;
 }
 
