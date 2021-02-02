@@ -1,4 +1,4 @@
 [
-	["VRHack", "Simple VRChat Client Skidded from EmmVRC", "https://github.com/Stormbreaker187/Software/blob/main/VRHack.dll?raw=true"],
-        ["Web Browser X", "Shitty C# Web Browser", "https://github.com/Stormbreaker187/Software/blob/main/WebBrowserX.exe?raw=true"]
+	["Title", "Descriotion", "URL"],
+        ["Title", "Description", "URL"]
 ]
